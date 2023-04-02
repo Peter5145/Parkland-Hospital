@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     background-color: black;
-    background: #000;;
+    background:url(../img/About.jpg);
     background-size: cover;
     background-position: center; 
 }
@@ -119,6 +119,96 @@ section#hero{
     margin-bottom: 1rem;
 }
 
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+ }
+
+ .portfolio .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+ }
+
+ .portfolio .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+ }
+
+ .contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    padding-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #3333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.contact .row form .message{
+
+height: 15rem;
+resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 4rem;
+    color: aqua;
+}
+
+h1{
+    color:white;
+    align-items: center;
+}
+
+
 /*RESPONSIVE*/
 @media(max-width:992px){
     .navbar.links,
@@ -140,4 +230,5 @@ section#hero{
         left: 2rem;
         width: unset;
     }
-}
+} 
+
