@@ -5,24 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    
+    <!--css link-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--cdjn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header>
-    <nav>
-<button><a href="index.html">Home</a></button>
-    </nav>
-</header>
-<body style="background-color: antiquewhite;" background="img/About.jpg"width="20%"height="30%">
-    <main>
-        <div style="background-color: aliceblue;color: black;">
-<p>Here is a brief summary about the hospital.</p>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="navbar">
+     <div class="logo"><a href="#">Parkland Hospital</a></div>
+     <ul class="links">
+        <li><a href="index.html"></a></li>
+        <li><a href="service.html"></a></li>
+        <li><a href="about.html"></a></li>
+        <li><a href="contact.html"></a></li>
+        
+     </ul>
+     <a href="#" class="action_btn">Get started</a>
+    
+    <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</div>
+    <div class="dropdown_menu ">
+        <li><a href="#">Home</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="services.html" class="action_btn">Get started</a></li>
+    </div>
 
-    Why do we use it?
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </header>
+ 
 
+
+    <section class="here">
+        <div class="heading">
+            <h1>About Us</h1>
         </div>
 
-    </main>
-    
+        <div class="container-about">
+            <div class="hero-content">
+                <h2>Here for you</h2>
+                <p>
+                    Examples are better than 1000 words. Examples are often easier to understand than text explanations.
+                    This tutorial supplements all explanations with clarifying "Try it Yourself" examples.
+                    If you try all the examples, you will learn a lot about JavaScript, in a very short time! 
+                </p>
+                <button class="cta-btn">Learn More</button>
+            </div>
+            <div class="hero-image">
+                <img src="img/Logo.jpg" width="300px"  height="300px" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/main.js"></script>
 </body>
 </html>

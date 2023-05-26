@@ -4,56 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-     crossorigin="anonymous" 
-     referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Home</title>
+<!--cdjn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--css link-->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <header>
-<div class="navbar">
- <div class="logo"><a href="#">Parkland Hospital</a></div>
- <ul class="links">
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
- </ul>
- <a href="#" class="action_btn">Get started</a>
-
-<div class="toggle_btn">
-    <i class="fa-regular fa-bars"></i>
-</div>
-<div class="dropdown_menu ">
-    <li><a href="#">Home</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-    <li><a href="services.html" class="action_btn">Get started</a></li>
-</div>
-</div>  
+    <div class="navbar">
+     <div class="logo"><a href="#">Parkland Hospital</a></div>
+     <ul class="links">
+        <li><a href="index.html"></a></li>
+        <li><a href="service.html"></a></li>
+        <li><a href="about.html"></a></li>
+        <li><a href="contact.html"></a></li>
+        <li><a href="cont.html"></a></li>
+        
+     </ul>
+     <a href="#" class="action_btn">Get started</a>
+    
+    <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </div>
+    <div class="dropdown_menu ">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="service.html" class="action_btn">Get started</a></li>
+        <a href="#" class="action_btn">Get started</a>
+    </div>
+    
+    <div id="hero">
+        <h1>WELCOME</h1>
+        <p>Welcome to your dedicated partner<br> We are here for you.</p>
+    </div>
 </header>
-<main>
-    <section id="hero">
-     <h1>WELCOME</h1>
-     <p>Welcome to your dedicated partner<br> We are here for you.</p>
-    </section>
-</main>
-<script>
-    const toggleBtn=document.querySelector('.toggle_btn')
-    const toggleBtnIcon=document.querySelector('.toggle_btn')
-    const dropDownMenu=document.querySelector('.dropdown_menu')
-    toggleBtn.onclick=function() {
-        dropDownMenu.classList.toggle('open')
-        const isOpen=dropDownMenu.classList.contains('open')
 
-        toggleBtn.classList=isOpen
-         ?'fa-solid fa mark'
-         :'fa-solid fa bars'
-    }
-</script>
+<!--overlay-->
+  
+
+<script src="js/main.js"></script>
 </body>
 </html>
